@@ -1,11 +1,11 @@
 # CV
 ## Dayana Shakenova
-********* 
+
 ### Contacts
 telegram: @lfzyf
 discord: slowpoke #8833
 
-### Brief information about yourself
+### Information about yourself
 I work, I study, I dream of earning millions, while doing nothing (that's why I'm learning programming). Strengths - do nothing and live independently in 20 years, and also punctuality. Work experience: study for 2 years in _sharaga_, realize the uselessness of a diploma
 
 ### Skills
