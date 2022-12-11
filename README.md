@@ -1,1 +1,1 @@
-https://dayanych.github.io/rsschool-cv/cv.md
+https://dayanych.github.io/rsschool-cv/cv
