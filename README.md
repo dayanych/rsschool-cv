@@ -1,1 +1,2 @@
-**https://dayanych.github.io/rsschool-cv/cv**
+# rsschool-cv
+https://dayanych.github.io/rsschool-cv/
