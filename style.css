@@ -1,6 +1,74 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+body {
+    font-family: 'IBM Plex Sans';
     margin: 0;
-    padding: 0;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name_title {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+
+.name_subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    color: #AF48FF;
+    margin: 0;
+}
+
+.name_ava{
+    margin-top: 36px;
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+.main_title{
+    margin-bottom: 0px;
+}
+
+hr{
+    margin-top: 2px;
+}
+
+.main_text a{
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    margin-right: 50px;
+}
+
+.ds,
+.gh{
+    width: 25px;
+    margin: 0 10px;
+}
+
+.year{
+    margin-left: 50px;
 }

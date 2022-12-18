@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rsschool-cv-html</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>CV#2. HTML, CSS and Git Basics</h1>
+    <div class="container">
+        <section class="name">
+            <div class="name_info">
+                <h1 class="name_title">Shakenova Dayana</h1>
+                <p class="name_subtitle">Student of JS/FE Stage#0 2022Q4</p>
+            </div>
+
+            <div class="name_ava">
+                <img class="name_photo" src="img/me.png" alt="ME!">
+            </div>
+        </section>
+
+        <main class="main">
+            <div>
+                <h2 class="main_title">Information about yourself</h2>
+                <hr>
+                <p class="main_text">I work, I study, I dream of earning millions, while doing nothing (that's why I'm learning programming). Strengths - do nothing and live independently in 20 years, and also punctuality. Work experience: study for 2 years in <i>sharaga</i>, realize the uselessness of a diploma</p>
+            </div>
+            <div>
+                <h2 class="main_title">Skills</h2>
+                <hr>
+                <p class="main_text">love programming, but don't do it (does it count?)</p>
+            </div>
+            <div>
+                <h2 class="main_title">Code examples</h2>
+                <hr>
+                <p class="main_text">I don't even want to embarrass myself and throw off my examples, <b>but</b> to show that I have read the documentation, here is an example:</p>
+                <pre><code>
+let i = 0
+while (i &lt; 5) {
+    console.log(i)
+    i++
+};</code></pre>
+            </div>
+            <div>
+                <h2 class="main_title">Experience</h2>
+                <hr>
+                <p class="main_text">study, study and study again (and this <a href="https://github.com/dayanych/rsschool-cv.git">cv</a>)</p>
+            </div>
+            <div>
+                <h2 class="main_title">Education</h2>
+                <hr>
+                <p class="main_text">as written above, incomplete higher education, some courses in python and JavaScript</p>
+            </div>
+            <div>
+                <h2 class="main_title">Language</h2>
+                <hr>
+                <p class="main_text">do this task with the help of google translate</p>
+            </div>
+        </main>
+       
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <div class="contact">
+            <a href="https://rs.school/js/" target="_blank"><img class="logo" src="img/rs_school_js.svg" alt="logo RS"></a> 
+            <a href="https://discordapp.com/users/392719088453025793/" target="_blank"><img class="ds" src="img/ds.svg" alt="discord"></a>
+            <p>slowpoke #8833</p>
+            <a href="https://github.com/dayanych" target="_blank"><img class="gh" src="img/gh.svg" alt="github"></a>
+            <p>dayanych</p>
+            <p class="year">2022</p>
+        </div>
+    </footer>
+
 </body>
 </html>
